@@ -1,0 +1,27 @@
+/* Apply custom scrollbar styles */
+.sidebar {
+    /* Ensure the scrollbar styling applies specifically to the sidebar */
+    overflow-y: auto;
+  }
+  
+  .sidebar::-webkit-scrollbar {
+    width: 1px; /* Decrease scrollbar width */
+  }
+
+  .sidebar::-webkit-scrollbar {
+    height: 4px; /* Decrease scrollbar height */
+  }
+  
+  .sidebar::-webkit-scrollbar-track {
+    background: transparent; /* Track color */
+  }
+  
+  .sidebar::-webkit-scrollbar-thumb {
+    background-color:transparent; /* Scrollbar thumb color */
+    border-radius: 4px; /* Rounded scrollbar corners */
+  }
+  
+  .sidebar::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Thumb color on hover */
+  }
+  
